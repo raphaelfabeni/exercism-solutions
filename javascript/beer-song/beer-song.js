@@ -20,7 +20,7 @@ Beer.verse = function(verse) {
       break;
   }
 
-  phrase = amount + 'of beer on the wall, ' + amount.toLoweCase() + 'of beer.\n' + action + rest + ' bottles of beer on the wall.\n';
+  phrase = amount + 'of beer on the wall, ' + amount.toLowerCase() + 'of beer.\n' + action + rest + ' bottles of beer on the wall.\n';
 
   return phrase;
 };
